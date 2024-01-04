@@ -1,0 +1,133 @@
+.background {
+  /* background-image: url("../Components/SvgImages/Cherry.svg");
+  width: 100%;
+  height: 150vh;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: antiquewhit;
+  background-position: center; */
+
+  padding-top: 80px;
+}
+
+.dog {
+  /* background-color: rgb(243, 218, 187); */
+  /* border-top-right-radius: 40000px;
+  
+  border-bottom-right-radius: 20500px; */
+
+  margin-left: 40px;
+}
+.dog-heading {
+  font-size: 100px;
+  font-family: Niconne;
+
+  color: #2146c7;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.dog-para {
+  font-size: 36px;
+}
+.download-1 {
+  width: 300px;
+  height: 55px;
+  /* top: 367px;
+  left: 262px; */
+  padding: 21px, 57px, 20px, 57px;
+  border-radius: 15px;
+  border: 1px solid black;
+  color: black;
+  font-size: 25px;
+  background-color: transparent;
+  font-weight: bold;
+  margin-right: 130px;
+}
+.download-2 {
+  width: 300px;
+  font-size: 25px;
+  height: 55px;
+  /* top: 367px;
+  left: 262px; */
+  padding: 21px, 57px, 20px, 57px;
+  border-radius: 15px;
+  border: 1px solid black;
+  color: black;
+  margin-left: 150px;
+  font-weight: bold;
+  background-color: transparent;
+}
+.download-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+@media (max-width: 575.98px) {
+  .background {
+    padding: 10px;
+    /* background-color: aqua; */
+  }
+  .dog-heading {
+    font-size: 32px;
+    font-family: Niconne;
+
+    color: #2146c7;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .dog-para {
+    font-size: 16px;
+  }
+  .download-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+
+    margin-top: 0px;
+  }
+
+  .download-1 {
+    /* width: 200px;
+    height: 55px;
+ 
+    padding: 21px, 57px, 20px, 57px;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: black;
+    font-size: 25px;
+    background-color: transparent;
+    font-weight: bold;*/
+    margin-right: 0px;
+    width: 250px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .download-2 {
+    /* width: 200px;
+    font-size: 25px;
+    height: 55px;
+    
+    padding: 21px, 57px, 20px, 57px;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: black;
+    margin-left: 150px;
+    font-weight: bold;
+    background-color: transparent; */
+    margin-left: 0px;
+    width: 250px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .dog {
+    margin-left: 0px;
+
+    width: 180px;
+  }
+}
